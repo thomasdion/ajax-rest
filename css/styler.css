@@ -1,0 +1,31 @@
+.wrapper {
+  margin:0 auto;
+  max-width: 860px;
+  min-width: 860px;
+  text-align: center;
+}
+.button11 {
+  margin:0 auto;
+  font-size: 1.5em;
+  display:inline-block;
+  color:#444;
+  border:1px solid #CCC;
+  border-radius: 13px;
+  background:teal;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+  cursor:pointer;
+  vertical-align:middle;
+  max-width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+.button11:hover {
+  background-color:#777799;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+
+.rest-table {
+  margin:0 auto;
+  width:100%;  background-color:#777799;
+
+}

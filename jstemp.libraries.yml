@@ -1,0 +1,10 @@
+jsapp:
+  css:
+    component:
+      css/styler.css: {}
+      css/jquery-ui.min.css: {}
+  js:
+    js/app.js: {}
+    js/jquery-ui.min.js: {}
+  dependencies:
+    - core/jquery

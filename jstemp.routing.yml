@@ -1,0 +1,8 @@
+
+jstemp.assets_controller_hello:
+  path: '/jstemp/hello/{name}'
+  defaults:
+    _controller: '\Drupal\jstemp\Controller\AssetsController::load'
+    _title: 'My Awards'
+  requirements:
+    _permission: 'access content'
