@@ -16,8 +16,10 @@ class AssetsController extends ControllerBase {
    *   Return Rest string.
    */
   public function load($name) {
-    $theme = array('#markup' => '<div class="wrapper"><div id="btn1" class="button11">Load Rest</div><br>
-    <div id="rest-table" class="rest-table">Loading...my rest</div><br></div>',
+    $theme = array('#markup' => '<div class="wrapper">
+    <div id="rest-table" class="rest-table"></div><br>
+    <div id="btn1" class="button11">Load Rest</div><br>
+    </div>',
       '#attached' => array(
         'library' => array(
           'jdrupal/jdrupal',

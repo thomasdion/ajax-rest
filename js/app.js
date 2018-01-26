@@ -15,7 +15,8 @@ jQuery(document).ready(function($) {
 });
 
 function load_rest(api) {
-  console.log("success");
+  // console.log("success");
+  document.getElementById('rest-table').innerHTML = "Loading my rest....";
   jQuery.ajax({
     url:'http://localhost/test2/api/awards',
     type:"GET",
@@ -36,4 +37,5 @@ function load_rest(api) {
       }
     }
   });
+
 }
